@@ -142,7 +142,7 @@ docker push tabarakallah/zynex-ai-app:latest
 ```
 
 
-# Achivement Summary
+
 
 # Achievement Summary
 
