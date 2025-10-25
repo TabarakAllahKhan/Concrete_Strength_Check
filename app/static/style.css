@@ -1,0 +1,125 @@
+/* app/static/style.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f6f9;
+  padding: 30px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  color: #2b3a55;
+}
+
+.card {
+  background: #fff;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  margin-top: 18px;
+}
+
+.card.small {
+  padding: 12px;
+}
+
+.grid-form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: center;
+}
+
+.grid-form input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.grid-form button {
+  grid-column: 1 / -1;
+  padding: 10px;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 12px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.btn-small {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #28a745;
+  color: #fff;
+  text-decoration: none;
+}
+/* -------------------------- */
+/* Table Styling (Suppliers + Predictions) */
+/* -------------------------- */
+.styled-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.styled-table thead tr {
+  background-color: #007bff;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.styled-table th, .styled-table td {
+  padding: 10px 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.styled-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #eef5ff;
+}
+
+.btn-small {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  background: #28a745;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.btn-small:hover {
+  background-color: #1e7e34;
+}

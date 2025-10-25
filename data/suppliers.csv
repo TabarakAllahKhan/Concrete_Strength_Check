@@ -1,0 +1,5 @@
+supplier_id,cement_cost,slag_cost,flyash_cost,water_cost,delivery_time,reliability_score
+S1,500,200,150,50,2,0.9
+S2,480,210,140,55,1,0.8
+S3,520,190,160,52,3,0.95
+S4,495,205,145,53,2,0.92
